@@ -7,8 +7,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Insertion-Sort", "Insertion
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Merge-Sort", "Merg-Sort\Merg-Sort.vcxproj", "{7233BAFE-0CA1-4BFF-9AD6-1CEBFE2D7151}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConstAndPointer", "ConstAndPointer\ConstAndPointer.vcxproj", "{D219E6FB-9261-42C7-A034-AC08E92DF11E}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestForMod", "TestForMod\TestForMod.vcxproj", "{5D6BEF2D-2856-4180-9BF5-66706CE58164}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Maximum-Subarray", "Maximum-Subarray\Maximum-Subarray.vcxproj", "{3467E7F5-F259-4A35-BC9C-44FA7185FBC2}"
@@ -37,14 +35,6 @@ Global
 		{7233BAFE-0CA1-4BFF-9AD6-1CEBFE2D7151}.Release|x64.Build.0 = Release|x64
 		{7233BAFE-0CA1-4BFF-9AD6-1CEBFE2D7151}.Release|x86.ActiveCfg = Release|Win32
 		{7233BAFE-0CA1-4BFF-9AD6-1CEBFE2D7151}.Release|x86.Build.0 = Release|Win32
-		{D219E6FB-9261-42C7-A034-AC08E92DF11E}.Debug|x64.ActiveCfg = Debug|x64
-		{D219E6FB-9261-42C7-A034-AC08E92DF11E}.Debug|x64.Build.0 = Debug|x64
-		{D219E6FB-9261-42C7-A034-AC08E92DF11E}.Debug|x86.ActiveCfg = Debug|Win32
-		{D219E6FB-9261-42C7-A034-AC08E92DF11E}.Debug|x86.Build.0 = Debug|Win32
-		{D219E6FB-9261-42C7-A034-AC08E92DF11E}.Release|x64.ActiveCfg = Release|x64
-		{D219E6FB-9261-42C7-A034-AC08E92DF11E}.Release|x64.Build.0 = Release|x64
-		{D219E6FB-9261-42C7-A034-AC08E92DF11E}.Release|x86.ActiveCfg = Release|Win32
-		{D219E6FB-9261-42C7-A034-AC08E92DF11E}.Release|x86.Build.0 = Release|Win32
 		{5D6BEF2D-2856-4180-9BF5-66706CE58164}.Debug|x64.ActiveCfg = Debug|x64
 		{5D6BEF2D-2856-4180-9BF5-66706CE58164}.Debug|x64.Build.0 = Debug|x64
 		{5D6BEF2D-2856-4180-9BF5-66706CE58164}.Debug|x86.ActiveCfg = Debug|Win32
