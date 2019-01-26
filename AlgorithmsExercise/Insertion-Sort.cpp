@@ -1,8 +1,8 @@
 #include<iostream>
 
 int main() {
-	int a[5]{ 5,2,4,1,3 };//定义待排序数组
-	//Insertion-Sort过程
+	int a[5]{ 5,2,4,1,3 };
+	//Insertion-Sort
 	for (int j = 1; j < 5; j++) {
 		int key = a[j];
 		int i = j - 1;
@@ -12,7 +12,6 @@ int main() {
 			a[i + 1] = key;
 		}
 	}
-	//打印排序后的数组
 	int *ptr = a;
 	int count = 0;
 	

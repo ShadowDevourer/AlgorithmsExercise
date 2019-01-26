@@ -1,4 +1,4 @@
-//πÈ≤¢≈≈–Úµ›πÈÀ„∑® µœ÷
+
 #include<iostream>
 #include<vector>
 #include<math.h>
@@ -47,17 +47,17 @@ void MergeSort(std::vector<int> &a,int begin,int end) {
 }
 int main() {
 	int NumberSize = 0;
-	std::cout << " ‰»Î¥˝≈≈–Ú ˝◊ÈµƒπÊƒ££∫" << std::endl;
+	std::cout << "ËæìÂÖ•ÂæÖÊéíÂ∫èÊï∞ÁªÑÁöÑÊï∞ÊçÆËßÑÊ®°Ôºö" << std::endl;
 	std::cin >> NumberSize;
 	std::vector<int> a(NumberSize);
 	std::vector<int> res(NumberSize);
-	std::cout << " ‰»Î¥˝≈≈–Ú ˝◊È:" << std::endl;
+	std::cout << "ËæìÂÖ•ÂæÖÊéíÂ∫èÊï∞ÁªÑÁöÑÂÖÉÁ¥†Ôºö" << std::endl;
 	for (int i = 0; i < NumberSize; i++) {
 		std::cin >> a[i];
 	}
-	std::cout << "¥˝≈≈–Ú ˝◊È ‰»ÎÕÍ≥…" << std::endl;
+	std::cout << "ÂæÖÊéíÂ∫èÊï∞ÁªÑÂª∫Á´ãÂÆåÊØï" << std::endl;
 	MergeSort(a, 0, NumberSize - 1);
-	std::cout << "≈≈–Ú∫Û ‰≥ˆ–Ú¡–£∫" << std::endl;
+	std::cout << "ÊéíÂ∫èÂêéÊï∞ÁªÑËæìÂá∫Ôºö" << std::endl;
 	auto iter = a.begin();
 	while (iter != a.end()) {
 		std::cout << *iter;
