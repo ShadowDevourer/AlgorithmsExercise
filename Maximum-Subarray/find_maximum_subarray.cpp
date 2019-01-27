@@ -48,7 +48,7 @@ SubArray FindMaxSubarray(const std::vector<int> &a, int low, int high) {
 	}
 	else {
 		int mid = (low + high) / 2;
-		//³ÌÐòÊ§Ð§¸ù±¾ËùÔÚ£¬Ã¿´ÎµÝ¹éµ÷ÓÃ¶¼½«Èý¸ö¶ÔÏó³õÊ¼»¯
+		//ï¿½ï¿½ï¿½ï¿½Ê§Ð§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú£ï¿½Ã¿ï¿½ÎµÝ¹ï¿½ï¿½ï¿½Ã¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½
 		SubArray max_left_array = FindMaxSubarray(a, low, mid);
 		SubArray max_right_array = FindMaxSubarray(a, mid + 1, high);
 		SubArray max_crossing_array = FindMaxCrossingSubarray(a, low, mid, high);
@@ -66,7 +66,7 @@ SubArray FindMaxSubarray(const std::vector<int> &a, int low, int high) {
 
 int main() {
 	int amount_of_array_element;
-	std::cout << "ÊäÈë×Ö·û´®¹æÄ££º" << std::endl;
+	std::cout << "ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½" << std::endl;
 	std::cin >> amount_of_array_element;
 	std::vector<int> array1(amount_of_array_element);
 	SubArray result;
